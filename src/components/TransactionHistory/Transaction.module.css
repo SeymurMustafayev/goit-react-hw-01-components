@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.transaction {
+  width: 550px;
+  margin: 0 auto;
+}
+.th {
+  background-color: rgb(15, 138, 85);
+  text-transform: uppercase;
+  height: 50px;
+  font-size: 20px;
+}
+.s.type {
+  height: 50px;
+  border: solid 1px rgb(51, 125, 157);
+}
+.s.amount {
+  height: 50px;
+  border: solid 1px rgb(51, 125, 157);
+}
+s.currency {
+  height: 50px;
+  border: solid 1px rgb(201, 106, 48);
+}
+.tr:nth-of-type(even) {
+  background-color: rgb(201, 106, 48);
+}
