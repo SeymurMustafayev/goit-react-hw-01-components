@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import FriendListItem from './FriendListItem';
 
 const FriendList = ({ friends }) => (
-  <ul className="friend-list">
+  <ul className="friendList">
     {friends.map(el => (
       <FriendListItem
         key={el.id}
